@@ -38,7 +38,9 @@ public class GhprbContextExtensionPoint extends ContextExtensionPoint {
                 null,
                 null,
                 null,
-                context.extensionContext.extensions
+                context.extensionContext.extensions,
+                context.includedRegions,
+                context.excludedRegions
         );
     }
 
