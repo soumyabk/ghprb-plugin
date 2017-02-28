@@ -261,4 +261,12 @@ class GhprbTriggerContext implements Context {
     public void extensions(Runnable closure) {
         ContextExtensionPoint.executeInContext(closure, extensionContext);
     }
+ 
+    public void includedRegions(String regions){
+    	this.includedRegions = regions
+    }
+
+    public void excludedRegions(String regions){
+        this.excludedRegions = regions
+    }
 }
