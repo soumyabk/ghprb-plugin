@@ -271,13 +271,13 @@ class GhprbTriggerContext implements Context {
     }
     public void includedRegions(Iterable<String> regions){
 	for (String region: regions) {
-             this.includedRegions += region;    
+             this.includedRegions += (region + "\n");    
         }
 
     }
     public void excludedRegions(Iterable<String> regions){
         for (String region: regions) {
-             this.excludedRegions += region;
+             this.excludedRegions += (region+ "\n");
         }
 
     }
