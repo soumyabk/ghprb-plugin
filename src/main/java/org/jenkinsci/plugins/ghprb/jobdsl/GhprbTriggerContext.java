@@ -263,10 +263,10 @@ class GhprbTriggerContext implements Context {
     }
  
     public void includedRegions(String regions){
-    	this.includedRegions = regions
+    	this.includedRegions = regions;
     }
 
     public void excludedRegions(String regions){
-        this.excludedRegions = regions
+        this.excludedRegions = regions;
     }
 }
